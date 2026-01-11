@@ -1,10 +1,12 @@
 # run_example.py
 from reprod_checker import ReprodChecker
 from toy_train import train_fn
+from toy_train import train_fn_reproducible
 
 def main():
     checker = ReprodChecker(
-        train_fn=train_fn,
+        # train_fn=train_fn,
+        train_fn=train_fn_reproducible,
         runs=4,
         base_seed=100,
         device="cpu",
