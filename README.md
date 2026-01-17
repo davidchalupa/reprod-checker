@@ -1,4 +1,4 @@
-# Reproducibility Checker — Minimal PoC
+# Reproduciblity checker - a minimal PoC
 
 Proof-of-concept reproducibility checker for PyTorch training functions.
 
